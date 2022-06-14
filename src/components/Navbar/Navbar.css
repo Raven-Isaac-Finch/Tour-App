@@ -1,0 +1,28 @@
+.navbar-container {
+    width: 100vw;
+    background-color: #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    padding: 25px;
+    height: 100%;
+    list-style: none;
+    color: white;
+}
+
+.navbar li:hover {
+    background-color: #ace0f9;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar li a {
+    color: inherit;
+    font-size: 1.5rem;
+}
